@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5; /* Light gray */
+  }
+  
+  /* Header Styles */
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a4738; /* Military green */
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+
+  #header-img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  #nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #nav-bar li {
+    margin: 0 100px 0 50px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  #hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #2a4738; /* Military green */
+    color: white;
+  }
+  
+  .video-container {
+    margin-top: 20px;
+  }
+  
+  /* Features Section */
+  #features {
+    padding: 50px 20px;
+    background-color: #e5e5e5; /* Light gray */
+  }
+  
+  .features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #2a4738; /* Military green */
+  }
+  
+  /* Pricing Section */
+  #pricing {
+    padding: 50px 20px;
+    background-color: #8faf8f; /* Lighter military green */
+    text-align: center;
+  }
+  
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #333;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px 20px;
+    background-color: #2a4738; /* Military green */
+    text-align: center;
+    color: white;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  #email {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+  }
+  
+  #submit {
+    padding: 10px 20px;
+    background-color: #8faf8f;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #submit:hover {
+    background-color: #2a4738;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2a4738;
+    color: white;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .features-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #email {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
